@@ -6,10 +6,10 @@ echo "\n";
 echo color("
 "," ||||||||||||  |||        ||||  ||||||||||| \n");
 echo color("white","          |||  |||||       |||   |||      |||| \n");
-echo color("red"," |        |||  |||  ||     |||   |||      ||||| \n");
+echo color("red"," |        |||  |   |||      ||||| \n");
 echo color("red"," ||       |||  |||     ||  |||   |||     .||||| \n");
 echo color("white"," ||       |||  |||,    ,||  ||   |||      |||| \n");
-echo color("white"," ||||||||||||  |||||.    .||||   ||||||||||| \n");
+echo color("white"," ||||||||||||  |||||.    .|||   ||||||||||| \n");
 echo "⤵\n";
 sleep(2);
 echo "⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛\n";
@@ -38,7 +38,7 @@ echo "\e[92m♨♨♨♨♨♨♨♨♨♨♨♨♨♨♨\n";
 		echo "\e[91m❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌\n";
 		echo "\e[92m[❌]  \e[91m BELUM PUNYA USER ID ? \n";
 		echo "\e[92m[❌]  \e[91m CHAT ADMIN  \n";
-		echo "\e[92m[❌]  \e[91m T.ME@The_Masker  \n";
+		echo "\e[92m[❌]  \e[91m NAILUL HUDAA \n";
 		echo "\e[91m❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌\n";
 		echo "⤵\n";
 goto login;
@@ -108,7 +108,7 @@ tulup:
         echo color("yellow",".");
         sleep(20);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD250520"}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD260520"}');
         $message = fetch_value($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai.')){
         echo "\n".color("green","🔓 Message: ".$message);
@@ -122,7 +122,7 @@ tulup:
         echo color("yellow",".");
         sleep(10);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD250520}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD260520}');
         $message = fetch_value($code1,'"message":"','"');
         echo "\n".color("green","🔓 Message: ".$message);
         echo "\n".color("nevy","KLAIM LAGI");
